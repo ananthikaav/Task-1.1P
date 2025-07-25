@@ -1,0 +1,93 @@
+.location{
+    width:95px; 
+     height: 95px;
+     border-radius:50%;
+     object-fit:cover;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 30px;
+}
+nav{
+        background-color: white;
+        font-size: 20px;
+    }
+ nav a{
+        text-decoration: none;
+        color: black;
+        padding-right: 10px;
+    }
+.header{
+    position: relative;
+}
+.header img{
+    width: 100%;
+    height: 400px;
+}
+.headertxt{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+.headertxt h3{
+    color: white;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.55);
+}
+.header:hover .headertxt{
+    opacity: 1;
+}
+.myimg img{
+    width: 150px;
+     height: 150px;
+     border-radius:100px;
+     object-fit:cover;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 30px;
+    
+     
+}
+.txte{
+    text-align:center;
+    font-size: 22px;
+}
+.intro{
+    text-align: center;
+    font-size: 22px;
+}
+.mywork{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 20px;
+
+}
+.mywork img{
+    width: 300px;
+    height:auto;
+    object-fit:cover;
+    border-radius:8px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+.row img{
+    height: auto;       
+    width: 100%;
+    max-width: 300px;              
+    border-radius: 8px;
+}
+
